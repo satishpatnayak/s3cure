@@ -1,0 +1,103 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            width: 100%;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+			border: 1px solid #ccc;
+            border-collapse: collapse;
+            margin: 20px 0;
+			box-sizing: border-box;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+			border: 1px solid #ccc;
+        }
+        th {
+            background-color: #333;
+			border: 1px solid #ccc;
+            color: #fff;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .vuln {
+        color: red;
+        }
+
+        * {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.category {
+            border: 1px solid #ccc;
+            padding: 0;
+            text-align: center;
+            float: left;
+            width: 25%;
+            box-sizing: border-box;
+        }
+		
+
+        h3 {
+            color: darkred;
+            font-size: 88px;
+			font-family: Arial, sans-serif;
+            margin-bottom: 0;
+        }
+		
+		.export-button-container {
+            text-align: right;
+            margin-bottom: 10px;
+        }
+        .export-button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .export-button:hover {
+            background-color: white;
+            color: black;
+            border: 2px solid #4CAF50;
+        }
